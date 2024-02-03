@@ -43,17 +43,44 @@ products = [{"name": "chair", "price": 100}, {"name": "pencil", "price": 1}, {"n
 #  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
 
+# cheapest_product = products[0]
+# for item in products:
+#   if item["price"] < cheapest_product["price"]:
+#     cheapest_product = item
+
+# print(cheapest_product)
+
 #  7. Start with an array of numbers and compute product of all the numbers.
 #     For example, [5, 10, 8, 3] becomes 1200.
+
+# nums = [5, 10, 8, 3]
+# math_product = 1
+# for num in nums:
+#   math_product *= num
+
+# print(math_product)
 
 #  8. Start with an array of strings and combine them all into a single string, separated by dashes.
 #     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
 
+# sports = ["volleyball", "basketball", "badminton"]
+# string = "-"
+# for sport in sports:
+#   string += sport + "-"
+
+# print(string)
+
 #  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
 
+# shortest = min(products, key=lambda x: len(x["name"]))
+# print(shortest)
+
 # 10. Start with an array of numbers and compute the maximum number.
 #     For example, [5, 10, 8, 3] becomes 10.
+
+# nums = [5, 10, 8, 3]
+# print(max(nums))
 
 
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/376c8931a48549889eb3c9bc091e9f43
