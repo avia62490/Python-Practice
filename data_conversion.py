@@ -38,22 +38,47 @@
 #  5. Convert a hash into an array of hashes using the keys from each hash as the :id key in each of the array's hashes.
 #     For example, {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}} becomes [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}].
 
-people = {321 : {"name": "Alice", 'age': 31}, 322 : {"name": "Maria", 'age': 27}}
-array = []
-for k, v in people.items():
-  array.append({'id': k, 'name': v['name'], 'age': v['age']})
-  # array.append({'id': k, {v}})
+# people = {321 : {"name": "Alice", 'age': 31}, 322 : {"name": "Maria", 'age': 27}}
+# array = []
+# for k, v in people.items():
+#   array.append({'id': k, 'name': v['name'], 'age': v['age']})
+#   # array.append({'id': k, {v}})
 
-print(array)
+# print(array)
 
 #  6. Convert an array of strings into a hash with keys for each string in the array and values for the number of times the string appears in the array.
 #     For example, ["do", "or", "do", "not"] becomes {"do" => 2, "or" => 1, "not" => 1}.
 
+# list = ["do", "or", "do", "not"]
+# word_count = {}
+# for word in list:
+#   if not word in word_count.keys():
+#     word_count[word] = 1
+#   else:
+#     word_count[word] += 1
+
+# print(word_count)
+
 #  7. Convert a hash into a flat array containing all the hash’s keys and values.
 #     For example, {"a" => 1, "b" => 2, "c" => 3, "d" => 4} becomes ["a", 1, "b", 2, "c", 3, "d", 4].
 
+# dict = {"a" : 1, "b" : 2, "c" : 3, "d" : 4}
+# array = []
+# for k, v in dict.items():
+#   array.append(k)
+#   array.append(v)
+
+# print(array)
+
 #  8. Combine data from a hash with names and prices and an array of hashes with names, colors, and weights to make a new hash.
 #     For example, {"chair" => 75, "book" => 15} and [{name: "chair", color: "red", weight: 10}, {name: "book", color: "black", weight: 1}] becomes {"chair" => {price: 75, color: "red", weight: 10}, "book" => {price: 15, color: "black", weight: 1}}.
+
+price_dict = {"chair" : 75, "book" : 15}
+items = [{'name': "chair", 'color': "red", 'weight': 10}, {'name': "book", 'color': "black", 'weight': 1}] 
+reformatted = {}
+
+# for product, price in price_dict.items():
+    
 
 #  9. Convert an array of hashes into a hash of arrays, using the author as keys and the titles as values.
 #     For example, [{author: "Jeff Smith", title: "Bone"}, {author: "George Orwell", title: "1984"}, {author: "Jeff Smith", title: "RASL"}] becomes {"Jeff Smith" => ["Bone", "RASL"], "George Orwell" => ["1984"]}.
