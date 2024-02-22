@@ -73,18 +73,39 @@
 #  8. Combine data from a hash with names and prices and an array of hashes with names, colors, and weights to make a new hash.
 #     For example, {"chair" => 75, "book" => 15} and [{name: "chair", color: "red", weight: 10}, {name: "book", color: "black", weight: 1}] becomes {"chair" => {price: 75, color: "red", weight: 10}, "book" => {price: 15, color: "black", weight: 1}}.
 
-price_dict = {"chair" : 75, "book" : 15}
-items = [{'name': "chair", 'color': "red", 'weight': 10}, {'name': "book", 'color': "black", 'weight': 1}] 
-reformatted = {}
+# price_dict = {"chair" : 75, "book" : 15}
+# items = [{'name': "chair", 'color': "red", 'weight': 10}, {'name': "book", 'color': "black", 'weight': 1}] 
+# reformatted = {}
+# for x in range(2):
+#   name = items[x]['name']
+#   price = price_dict[name]
+#   color = items[x]['color']
+#   weight = items[x]['weight']
+#   reformatted[name] = {'price': price, 'color': color, 'weight': weight}
 
-# for product, price in price_dict.items():
-    
+# print(reformatted)
 
 #  9. Convert an array of hashes into a hash of arrays, using the author as keys and the titles as values.
 #     For example, [{author: "Jeff Smith", title: "Bone"}, {author: "George Orwell", title: "1984"}, {author: "Jeff Smith", title: "RASL"}] becomes {"Jeff Smith" => ["Bone", "RASL"], "George Orwell" => ["1984"]}.
 
+# books = [{'author': "Jeff Smith", 'title': "Bone"}, {'author': "George Orwell", 'title': "1984"}, {'author': "Jeff Smith", 'title': "RASL"}]
+# author_collections = {}
+# for book in books:
+#   if not book['author'] in author_collections.keys():
+#     author_collections[book['author']] = [book['title']]
+#   else:
+#     author_collections[book['author']].append(book['title'])
+
+# print(author_collections)
+
 # 10. Given a hash, create a new hash that has the keys and values switched.
 #     For example, {"a" => 1, "b" => 2, "c" => 3} becomes {1 => "a", 2 => "b", 3 => "c"}.
 
+original = {"a" : 1, "b" : 2, "c" : 3}
+flipped ={}
+for k, v in original.items():
+  flipped[v] = k
+
+print(flipped)
 
 # SOLUTIONS: https://gist.github.com/peterxjang/216a7a6e8411ee5c05118e78022f2bc7
