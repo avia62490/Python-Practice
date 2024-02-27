@@ -41,13 +41,50 @@
 
 # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
 
+# num1 = 5
+# num2 = 6
+# if num1 > 10 or num2 > 10:
+#   print(100)
+# else:
+#   print(-100)
+
 # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
+
+# num = -3
+# print(1776) if num < 0 else print(1979)
 
 # 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
 
+# num = int(input("enter number: "))
+# if num == 100:
+#   print(100)
+# elif num == 99:
+#   print(99)
+# else:
+#   print(0)
+
 # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
 
+# num1 = -5
+# num2 = -7
+# if num1 < 0 and num2 > 0:
+#   print(1)
+# else:
+#   print(0)
+
 # 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur).
+
+# num = int(input("enter number: "))
+# if num > 80:
+#   print(5)
+# elif num > 60:
+#   print(4)
+# elif num > 40:
+#   print(3)
+# elif num > 20:
+#   print(2)
+# else:
+#   print(1)
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/aee70f966f0f725609eee89b06e8a6c0
