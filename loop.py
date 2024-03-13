@@ -29,13 +29,35 @@
 
 # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
+# while True:
+#   num = int(input("Enter a number: "))
+#   if num > 10:
+#     break
+
 # 7. Write a while loop that prints the numbers 50 to 70.
+
+# for x in range(50, 71):
+#   print(x)
 
 # 8. Write a while loop that prints the phrase "Around the world" 144 times.
 
+# for x in range(1, 145):
+#   print(x, "Around the world")
+
 # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
+# while True:
+#   word = input("Enter a word: ")
+#   if len(word) > 5:
+#     break
+
+
 # 10. Write a while loop that prints the even numbers from 2 to 40.
+
+# count = 2
+# while count < 41:
+#   print(count)
+#   count += 2
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/c4ec0e0f8f6e123d65ada9bf3100068b
