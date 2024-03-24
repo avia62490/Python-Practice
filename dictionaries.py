@@ -50,13 +50,52 @@
 
 # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
+# geography = {
+#   "Illinois": "Springfield",
+#   "California": "Sacramento",
+#   "South_Dakota": "Who cares"
+# }
+# geography["New_Yorlk"] = "Albany"
+# for k, v in geography.items():
+#   print(k, v)
+
 # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
+
+# laptop = {
+#   "brand": "orange",
+#   "model": "OraBook Pro",
+#   "year": 2020
+# }
+# for k, v in laptop.items():
+#   print(k, v)
 
 # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
 
+# laptops = [
+#   {"brand": "acer", "model": "Chromebook"},
+#   {"brand": "Dell", "model": "XJTDGFJHB"},
+#   {"brand": "IBM", "model": "Deep BLue"},
+# ]
+# print(laptops[1]["model"])
+
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
+# definitions = {
+#   "happy": "not sad",
+#   "sad": "not happy"
+# }
+# definitions["indifferent"] = "Not happy, not sad"
+# print(definitions)
+
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+# shirt = {
+#   "brand": "Shirt Co",
+#   "color": "red",
+#   "size": "M"
+# }
+# for k, v in shirt.items():
+#   print(k, v)
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
