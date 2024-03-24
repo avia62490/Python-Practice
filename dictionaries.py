@@ -3,127 +3,60 @@
 # contact = {
 #   "first_name": "Alex",
 #   "last_name": "Via",
-#   "email": "alex@via.com"
+#   "email": "alex.via@email.com"
 # }
-
-# for x in contact.values():
-#   print(x)
+# for k, v in contact.items():
+#   print(k, v)
 
 # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 
 # contacts = [
-#   {
-#     "first_name": "Homer",
-#     "last_name": "Simpson"
-#   },
-#   {
-#     "first_name": "Darth",
-#     "last_name": "Vader"
-#   },
-#   {
-#     "first_name": "John",
-#     "last_name": "Doe"
-#   }
+#   {"first_name": "Alex", "last_name": "Via"},
+#   {"first_name": "Bryan", "last_name": "Rafferty"},
+#   {"first_name": "Bobby", "last_name": "Newman"}
 # ]
-
-# for x in contacts[0].values():
-#   print(x)
+# print(contacts[0])
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
 # menu = {
-#   "pizza": 5,
-#   "fries": 3,
-#   "nuggets": 4
+#   "Spaghetti": 10,
+#   "Chicken Parm": 15,
+#   "Tortellini": 12
 # }
-# for x, y in menu.items():
-#   print(x, y)
-
-# menu["shake"] = 4
-# for x, y in menu.items():
-#   print(x, y)
+# menu["Cake"] = 6
+# print(menu)
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
 # book = {
-#   "title": "How to Change Your Mind",
-#   "author": "Michael Pollan",
-#   "pages": 350,
+#   "title": "Bible",
+#   "author": "Jesus",
+#   "pages": 1000,
 #   "language": "english"
 # }
 
-# for x, y in book.items():
-#   print(x, y)
+# for k, v in book.items():
+#   print(k, v)
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
 
 # books = [
-#   {"title": "bible", "author": "jesus"},
-#   {"title": "ooga booga", "author": "mr clean"},
-#   {"title": "philosphy", "author": "plato"}
+#   {"title": "Cat in the Hat", "author": "Dr Seuss"},
+#   {"title": "The Hobbit", "author": "JRR Tolkien"},
+#   {"title": "How to change your mind", "author": "Michael Pollan"}
 # ]
-
-# print(books[2]["author"])
+# print(books[2])
 
 # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
-# capitals = {
-#   "Illinois": "Springfield",
-#   "Hawaii": "Honolulu",
-#   "Washington": "SEATTLE" 
-# }
-
-# print(capitals)
-
-# capitals["Ohio"] = "Clombus"
-
-# print(capitals)
-
 # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
-
-# computer = {
-#   "brand": "apple",
-#   "model": "macbook pro",
-#   "year": 2020
-# }
-
-# for x in computer.items():
-#   print(x)
 
 # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
 
-# computers = [
-#   {"brand": "apple", "model": "macbook pro"},
-#   {"brand": "acer", "model": "chromebook"},
-#   {"brand": "microsoft", "model": "notebook"}
-# ]
-
-# print(computers[1]["model"])
-
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
-
-# definitions = {
-#   "hot": "a lot of temperature",
-#   "cold": "very little temperature"
-# }
-
-# for x in definitions.items():
-#   print(x)
-
-# definitions["warm"] = "a good amount of temperature"
-
-# for x in definitions.items():
-#   print(x)
 
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
-# shirt = {
-#   "brand": "shirts inc",
-#   "color": "red",
-#   "size": "M"
-# }
-
-# for x in shirt.values():
-#   print(x)
 
 # SOLUTIONS: https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
